@@ -2,13 +2,15 @@
 <html>
     <head>
         <title>Travel Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
+
     </head>
     <body>
         <header>
             <div class="main">
                 <div class="logo">
-                    <img src="images/django.jpg">
+                    <img src="images/flagg.png">
 
                 </div>
                 <ul>
@@ -21,6 +23,8 @@
 
             </div>
 
+            
+
             <div class="title">
                 <h1>Welcome to Kyrgyzstan</h1>
             </div>
@@ -29,54 +33,97 @@
                 <a href="#" class="btn">WATCH VIDEO</a>
                 <a href="#" class="btn">LEARN MORE</a>
 
-                <div class="information">
-                    <figure class="sign">
-                        <p><img src="images/Issyk-Kul.jpg" width="180" height="100" alt="Issyk-Kul"></p>
-                        <figcaption>Lake Issyk-Kul</figcaption>
-                    </figure>
-                
-                    <div class="infotmation-text"> Issyk-Kul is a closed lake in the mountains of the Northern Tien Shan in Eastern Kyrgyzstan.
-                    It is the seventh deepest lake in the world, the tenth largest lake in the world by volume
-                    and the second largest salt lake after the Caspian Sea
-                    </div>
-
-                    <figure class="sign">
-                        <p><img src="images/sary.jpg" width="180" height="100" alt="Sary-Cheleck"></p>
-                        <figcaption>Lake Sary-Cheleck</figcaption>
-                    </figure>
-                    <div class="information-text"> Sary-Chelek is a freshwater dammed lake in Kyrgyzstan. 
-                        It is located on the territory of the Sary-Chelek State Biosphere Reserve, 
-                        near the junction of the Chatkal and Atoynak ranges, in the Western Tien Shan. 
-                        Belongs to the basin of the Kara-Suu river, the right tributary of the Naryn. 
-                        Is one of the largest lakes in Kyrgyzstan
-                    </div>
-                   
-
-                    <figure class="sign">
-                        <p><img src="images/alakul.jpg" width="180" height="100" alt="Ala-Kul"></p>
-                        <figcaption>Lake Ala-Kul</figcaption>
-                    </figure>
-                    <p>
-                        Ala-Kul is a large alpine lake of glacial origin, located in the eastern part of the Terskey-Ala-Too
-                        ridge on the southern shore of Lake Issyk-Kul, near the city of Karakol. The lake is located in a vast 
-                        depression between the Karakol and Altyn-Arashan gorges and has no runoff. 
-                        The name of the lake is translated from Kyrgyz as “variegated lake” and it is the best match for this place. 
-                        Ala-Kul really amazes with its colors: bright turquoise water coexists with non-melting snow even in summer, 
-                        green grass and mountain flowers of all kinds of shades.
-                    </p>
-
-                    <figure class="sign">
-                        <p><img src="images/sonkol.jpeg" width="180" height="100" alt="Son-Kol"></p>
-                        <figcaption>Lake Son-Kol</figcaption>
-                    </figure>
-                    <p>
-                        Songkol is a large alpine lake sandwiched in a depression between the inner spurs of the Tien Shan. 
-                        Located between the Sonkeltau and Moldotau ridges, at an altitude of 3016 m above sea level 
-                        in the northwestern part of the Naryn region. Is a potential object of ecological tourism
-                    </p>
+               
             
                 </div>
             </div>
         </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Issyk-Kul.jpg" class="card-img-top" alt="Issyk-Kul"> 
+                        <div class="card-body">
+                            <h2 class="card-title">Issyk-Kul</h2>
+                            <p class="card-text">Issyk-Kul is a closed lake in the mountains of the Northern Tien Shan in Eastern Kyrgyzstan.
+                                It is the seventh deepest lake in the world, the tenth largest lake in the world by volume
+                                and the second largest salt lake after the Caspian Sea</p>
+                            <a href="#" class="btn btn-primary">Back</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/sonkol.jpeg" class="card-img-top" alt="Son-Kol"> 
+                        <div class="card-body">
+                            <h2 class="card-title">Son-Kol</h2>
+                            <p class="card-text">Songkol is a large alpine lake sandwiched in a depression between the inner spurs of the Tien Shan. 
+                                Located between the Sonkeltau and Moldotau ridges, at an altitude of 3016 m above sea level 
+                                in the northwestern part of the Naryn region. Is a potential object of ecological tourism</p>
+                            <a href="#" class="btn btn-primary">Back</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/sary.jpg" class="card-img-top" alt="Sary-Chelec"> 
+                        <div class="card-body">
+                            <h2 class="card-title">Sary-Chelec</h2>
+                            <p class="card-text">Sary-Chelek is a freshwater dammed lake in Kyrgyzstan. 
+                                It is located on the territory of the Sary-Chelek State Biosphere Reserve, 
+                                near the junction of the Chatkal and Atoynak ranges, in the Western Tien Shan. 
+                                Belongs to the basin of the Kara-Suu river, the right tributary of the Naryn. 
+                                Is one of the largest lakes in Kyrgyzstan</p>
+                            <a href="#" class="btn btn-primary">Back</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/alakul.jpg" class="card-img-top" alt="Ala-Kul"> 
+                        <div class="card-body">
+                            <h2 class="card-title">Ala-Kul</h2>
+                            <p class="card-text">Ala-Kul is a large alpine lake of glacial origin, located in the eastern part of the Terskey-Ala-Too
+                                ridge on the southern shore of Lake Issyk-Kul, near the city of Karakol. The lake is located in a vast 
+                                depression between the Karakol and Altyn-Arashan gorges and has no runoff. 
+                                The name of the lake is translated from Kyrgyz as “variegated lake” and it is the best match for this place. 
+                                Ala-Kul really amazes with its colors: bright turquoise water coexists with non-melting snow even in summer, 
+                                green grass and mountain flowers of all kinds of shades.</p>
+                            <a href="#" class="btn btn-primary">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row second-row">
+                <div class="col-lg-6 col-md-12">
+                    <h2>Info about natural</h2>
+                    <p>Our service include:</p>
+                    <ul class="futt">
+                        <li>Website developer</li>
+                        <li>Website devr</li>
+                        <li>Website developer</li>
+                        <li>Website developer</li>
+                    </ul>
+                    <p>
+                        Государственный природный парк Ала́-Арча́ — парк, расположенный в Киргизии на расстоянии 41 км от её столицы 
+                        на северном склоне Киргизского хребта на высоте 1600—4860 м. Занимает площадь в 2280 га. 
+                        Начинается с высокого центра Киргизского Ала-Тоо и простирается к северу до Ала-Арчинского ущелья. 
+                    </p>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <img id="info-img" src="images/ala-archa.jpg"
+
+                </div>
+
+                <div class="col-lg-6 col-md-12"></div>
+
+                <div class="col-lg-6 col-md-12"></div>
+
+            </div>
+        </div>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </html>

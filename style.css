@@ -52,9 +52,9 @@ ul li.active a{
     font-size: 70px;
 }
 .subtitle{
-    position: relative;
-    top: 65%;
-    left: 60%;
+    position:absolute;
+    top: 62%;
+    left: 49%;
     transform: translate(-50%,-50%);
 }
 
@@ -90,4 +90,20 @@ ul li.active a{
 }
 .sign figcaption{
     margin: 0 auto 5px;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.futt{
+
+}
+
+.second-row{
+    margin-top: 50px ;
+}
+
+#info-img{
+    width: 100%;
 }
